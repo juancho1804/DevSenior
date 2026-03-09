@@ -22,6 +22,7 @@ public class ConversorMedidas {
                 celsius, ((celsius * FACTOR_CELSIUS_FAHRENHEIT) + OFFSET_FAHRENHEIT));
 
         System.out.println("--- Conversiones completadas. Gracias! ---");
+        scanner.close();
 
     }
 
